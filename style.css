@@ -115,7 +115,7 @@ input {
   margin: 5px;
 }
 
-.sumbit-btn {
+.submit-btn {
   background: #889869;
   color: #FFFFFF;
   height: 53px;
@@ -131,6 +131,6 @@ input {
   margin: 20px;
 }
 
-.sumbit-btn:hover {
+.submit-btn:hover {
   background: #9fb17b;
 }/*# sourceMappingURL=style.css.map */
