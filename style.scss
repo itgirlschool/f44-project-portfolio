@@ -1,10 +1,10 @@
 @media screen and (min-width: 1024px) {
     .events {
         display: grid;
-        width: 1240px;
+        width: 1300px;
         height: 700px;
         grid-template-rows: 116px repeat(2, 292px);
-        grid-template-columns: repeat(3, 390px);
+        grid-template-columns: repeat(auto-fill, 390px);
         gap: 28px 32px;
         margin: 70px 100px 120px 100px;
 
@@ -28,3 +28,5 @@
         }
         }
     }
+
+    
