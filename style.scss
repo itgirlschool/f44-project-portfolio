@@ -6,17 +6,81 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   margin: auto;
-   gap: 10px;
+    margin: auto;
+    gap: 0px;
+}
+
+.container1 {
+
+padding: 10px;
+margin: 10px;
+width: 100px;
+}
+
+.container2 {
+
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    left: 80px;
+}
+
+.container3 {
+
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
 }
 }
 
 
+@media screen and (max-width: 399px){
+
+
+
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        gap: 0px;
+    }
+
+    .container1 {
+
+        margin-top: 10px;
+
+    }
+
+    .container2 {
+    margin-top: 10px;
+    left: 80px;
+
+    }
+
+    .container3 {
+        padding: 10px;
+        margin: 10px;
+        width: 100px;
+
+    }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
-.headline {
+
+.maincontainer {
+
     background: #F5F5F5;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headline {
+position: relative;
+background: #F5F5F5;
 color: #889869;
 font-family: 'Montserrat', sans-serif;
 font-weight: 700;
@@ -25,14 +89,6 @@ line-height: 44px;
 text-align: center;
 }
 
-.maincontainer {
-
-    background: #F5F5F5;
-    position: relative;
-    background-repeat: no-repeat;
-background-size: cover;
-margin: auto;
-}
 
 .container1 {
     font-family: 'Montserrat', sans-serif;
@@ -43,7 +99,7 @@ left: 80px;
 top: 100px;
 text-align: left;
 padding: 50px;
-margin: 10px;
+margin-bottom: 10px;
 width: 500px;
 &__title {
     font-weight: 400;
@@ -60,12 +116,12 @@ width: 500px;
     background: #B9C4CA;
     color: white;
     position: absolute;
-   right: 80px;
-    top: 500px;
+    right: 80px;
+    top: 450px;
     text-align: left;
     font-weight: 400;
     padding: 50px;
-    margin: 10px;
+    margin-bottom: 10px;
     width: 500px;
     &__title {
         font-weight: 400;
@@ -87,7 +143,7 @@ width: 500px;
     text-align: left;
     font-weight: 400;
     padding: 50px;
-    margin: 10px;
+    margin-bottom: 10px;
     width: 500px;
     &__title {
         font-weight: 400;
