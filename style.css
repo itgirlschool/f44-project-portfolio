@@ -79,6 +79,21 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+/*#-----------------------------Page 1 Block 2 Start--------------------*/
+.aboutme {
+  background: #1E1E1E;
+}
+
+.aboutme__container {
+  background: #1E1E1E;
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+  height: 700px;
+  padding: 73px 165px 82px 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .headline {
@@ -180,6 +195,19 @@
     margin-left: 0%;
     width: 100%;
   }
+.aboutme__title {
+  position: relative;
+  width: 264px;
+  height: 56px;
+  left: 296px;
+  top: 991px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 @keyframes text {
@@ -281,6 +309,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+.content__container {
+  width: 100%;
+  margin-top: 325px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-serv__h3 {
@@ -288,11 +321,108 @@
   color: rgb(136, 152, 105);
   font-weight: 700;
   align-self: center;
+.content__img {
+  position: relative;
+  width: 508px;
+  height: 641px;
+  left: 862px;
+  top: 1075px;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .section-serv__p {
   align-self: center;
   font-weight: 500;
+.content__text {
+  position: relative;
+  width: 715px;
+  height: 641px;
+  left: 70px;
+  top: 1075px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: justify;
+  color: #FFFFFF;
 }
 
 /* services-end *//*# sourceMappingURL=style.css.map */
+/*#-----------------------------Page 1 Block 2 End--------------------*/
+/*-----Last Part Form-----*/
+.form {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  text-align: center;
+  color: #889869;
+  font-weight: 700;
+}
+
+input {
+  height: 35px;
+  width: 540px;
+  left: 411px;
+  top: 277px;
+  border-radius: 0px;
+  font-size: inherit;
+  border-color: #B9C4CA;
+}
+
+.form-item {
+  text-align: start;
+  margin-bottom: 10px;
+  line-height: 0px;
+}
+
+textarea {
+  height: 200px;
+  width: 540px;
+  left: 411px;
+  top: 1033px;
+  border-radius: 0px;
+  border-color: #B9C4CA;
+}
+
+.agreement {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
+  left: 412px;
+  top: 1305px;
+  border-radius: 0px;
+  margin: 5px;
+}
+
+.submit-btn {
+  background: #889869;
+  color: #FFFFFF;
+  height: 53px;
+  width: 275px;
+  left: 582px;
+  top: 1400px;
+  border-radius: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 20px;
+  border: #889869;
+}
+
+.submit-btn:hover {
+  background: #9fb17b;
+}/*# sourceMappingURL=style.css.map */
