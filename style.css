@@ -1,3 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+@media screen and (max-width: 767px) {
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 0px;
+  }
+  .container1 {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+  }
+  .container2 {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    left: 80px;
+  }
+  .container3 {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 399px) {
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 0px;
+  }
+  .container1 {
+    margin-top: 10px;
+  }
+  .container2 {
+    margin-top: 10px;
+    left: 80px;
+  }
+  .container3 {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+  }
+}
+.maincontainer {
+  background: #F5F5F5;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  position: relative;
+  background: #F5F5F5;
+  color: #889869;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.container1 {
+  font-family: "Montserrat", sans-serif;
+  background: #ECAE7D;
+  color: white;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  text-align: left;
+  padding: 50px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+.container1__title {
+  font-weight: 400;
+  font-size: 30px;
+}
+.container1__text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container2 {
+  font-family: "Montserrat", sans-serif;
+  background: #B9C4CA;
+  color: white;
+  position: absolute;
+  right: 80px;
+  top: 450px;
+  text-align: left;
+  font-weight: 400;
+  padding: 50px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+.container2__title {
+  font-weight: 400;
+  font-size: 30px;
+}
+.container2__text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container3 {
+  font-family: "Montserrat", sans-serif;
+  background: #889869;
+  color: white;
+  position: absolute;
+  left: 80px;
+  top: 800px;
+  text-align: left;
+  font-weight: 400;
+  padding: 50px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+.container3__title {
+  font-weight: 400;
+  font-size: 30px;
+}
+.container3__text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
 /*#-----------------------------Page 1 Block 2 Start--------------------*/
 .aboutme {
   background: #1E1E1E;
