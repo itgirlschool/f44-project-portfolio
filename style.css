@@ -85,19 +85,22 @@ input {
   top: 277px;
   border-radius: 0px;
   font-size: inherit;
+  border-color: #B9C4CA;
 }
 
 .form-item {
   text-align: start;
   margin-bottom: 10px;
+  line-height: 0px;
 }
 
-.info {
+textarea {
   height: 200px;
   width: 540px;
   left: 411px;
   top: 1033px;
   border-radius: 0px;
+  border-color: #B9C4CA;
 }
 
 .agreement {
@@ -129,6 +132,7 @@ input {
   letter-spacing: 0em;
   text-align: center;
   margin: 20px;
+  border: #889869;
 }
 
 .submit-btn:hover {
