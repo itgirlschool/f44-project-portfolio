@@ -75,3 +75,21 @@ textarea {
 .submit-btn:hover {
     background:#9fb17b;
 }
+
+
+@media screen and (max-width: 399px) {
+
+    input {
+        width: 360px;
+    }
+
+    .form-item {
+        font-size: small;
+    }
+
+    textarea {
+        width: 360px;
+        height: 100px;
+    }
+
+}
