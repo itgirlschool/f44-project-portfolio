@@ -192,33 +192,6 @@ animation-name: text;
 		font-size: 20px;
 	}
 }
-
-
-.information {
-	text-align: center;
-	font-size: 20px;
-	font-family: "Montserrat";
-	font-weight: 400px;
-	letter-spacing: 5px;
-
-	&__text {
-		animation-duration: 2s;
-		animation-name: text;
-	}
-}
-@keyframes text {
-	from {
-		margin-left: 100%;
-		width: 100%;
-	}
-
-	to {
-		margin-left: 0%;
-		width: 100%;
-	}
-}
-/*------------text end---------------*/
-
 /* services-start */
 @media screen and (max-width: 767px) {
 	.section-serv__h2 {
