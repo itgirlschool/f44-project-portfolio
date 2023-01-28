@@ -1,14 +1,15 @@
 /*Photo + text Smirnova start*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 .about {
-  background-image: url(images/main_photo.jpg);
+  background-image: url(images/main_photo1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   display: flex;
   justify-content: flex-end;
+  margin: 0 auto;
 }
-.about__maintext {
+.about__main {
   font-family: "Montserrat";
   font-style: normal;
   color: #000000;
@@ -16,15 +17,21 @@
 
 @media screen and (min-width: 1024px) {
   .about {
-    min-height: 960px;
+    min-height: 1000px;
+    align-items: center;
   }
-  .about__maintext {
+  .about__main {
     font-weight: 400;
     font-size: 30px;
     line-height: 37px;
-    max-width: 660px;
-    padding-top: 20px;
-    padding-right: 10px;
+    max-width: 43%;
+    padding-right: 55px;
+  }
+  .about__main .maintext-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    padding-bottom: 20px;
   }
 }
 /*Photo + text Smirnova end*/
