@@ -1,4 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.information {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400px;
+  letter-spacing: 3px;
+}
+.information__text {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: text;
+          animation-name: text;
+}
+
+@-webkit-keyframes text {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes text {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/*------------text end---------------*/
 @media screen and (min-width: 1024px) {
   .events {
     display: grid;
@@ -169,17 +206,6 @@
           animation-duration: 2s;
   -webkit-animation-name: text;
           animation-name: text;
-}
-
-@-webkit-keyframes text {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 @keyframes text {

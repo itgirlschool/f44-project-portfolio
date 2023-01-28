@@ -1,3 +1,28 @@
+.information{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400px;
+    letter-spacing: 3px;
+
+&__text{
+animation-duration: 3s;
+animation-name: text;
+}
+}
+@keyframes text {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  /*------------text end---------------*/
 @media screen and (min-width: 1024px) {
 	.events {
 		display: grid;
