@@ -1,5 +1,33 @@
+/*Photo + text Smirnova start*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.about {
+  background-image: url(images/main_photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+.about__maintext {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #000000;
+}
 
+@media screen and (min-width: 1024px) {
+  .about {
+    min-height: 960px;
+  }
+  .about__maintext {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 660px;
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+}
+/*Photo + text Smirnova end*/
 .information {
   text-align: center;
   font-size: 20px;
@@ -8,12 +36,11 @@
   font-weight: 400px;
   letter-spacing: 3px;
 }
-
 .information__text {
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-name: text;
-  animation-name: text;
+          animation-name: text;
 }
 
 @-webkit-keyframes text {
@@ -21,7 +48,6 @@
     margin-left: 100%;
     width: 100%;
   }
-
   to {
     margin-left: 0%;
     width: 100%;
@@ -33,13 +59,11 @@
     margin-left: 100%;
     width: 100%;
   }
-
   to {
     margin-left: 0%;
     width: 100%;
   }
 }
-
 /*------------text end---------------*/
 @media screen and (min-width: 1024px) {
   .events {
@@ -48,7 +72,6 @@
     margin: 70px 100px 120px 100px;
     flex-wrap: wrap;
   }
-
   .events__title {
     display: flex;
     flex-direction: row;
@@ -59,13 +82,11 @@
     padding-left: 435px;
     padding-bottom: 70px;
   }
-
   .events__photowrapper {
     display: flex;
     max-width: 1240px;
     flex-wrap: wrap;
   }
-
   .events__photo {
     width: 390px;
     height: 272px;
@@ -73,7 +94,6 @@
     margin: 10px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .maincontainer {
     display: flex;
@@ -82,27 +102,23 @@
     margin: auto;
     gap: 0px;
   }
-
   .container1 {
     padding: 10px;
     margin: 10px;
     width: 100px;
   }
-
   .container2 {
     padding: 10px;
     margin: 10px;
     width: 100px;
     left: 80px;
   }
-
   .container3 {
     padding: 10px;
     margin: 10px;
     width: 100px;
   }
 }
-
 @media screen and (max-width: 399px) {
   .maincontainer {
     display: flex;
@@ -111,23 +127,19 @@
     margin: auto;
     gap: 0px;
   }
-
   .container1 {
     margin-top: 10px;
   }
-
   .container2 {
     margin-top: 10px;
     left: 80px;
   }
-
   .container3 {
     padding: 10px;
     margin: 10px;
     width: 100px;
   }
 }
-
 .maincontainer {
   background: #f5f5f5;
   position: relative;
@@ -158,12 +170,10 @@
   margin-bottom: 10px;
   width: 500px;
 }
-
 .container1__title {
   font-weight: 400;
   font-size: 30px;
 }
-
 .container1__text {
   font-weight: 400;
   font-size: 20px;
@@ -182,12 +192,10 @@
   margin-bottom: 10px;
   width: 500px;
 }
-
 .container2__title {
   font-weight: 400;
   font-size: 30px;
 }
-
 .container2__text {
   font-weight: 400;
   font-size: 20px;
@@ -206,12 +214,10 @@
   margin-bottom: 10px;
   width: 500px;
 }
-
 .container3__title {
   font-weight: 400;
   font-size: 30px;
 }
-
 .container3__text {
   font-weight: 400;
   font-size: 20px;
@@ -222,15 +228,12 @@
   .section-serv__h2 {
     font-size: 20px;
   }
-
   .section-serv_container {
     width: 70vw;
   }
-
   .services-item {
     flex-wrap: wrap;
   }
-
   .section-serv__h3 {
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -238,59 +241,49 @@
     margin-top: -5px;
     font-size: 18px;
   }
-
   .section-serv__p {
     width: 100%;
     margin-top: -10px;
     font-size: 14px;
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .section-serv__h2 {
     font-size: 25px;
   }
-
   .section-serv_container {
     width: 65vw;
   }
-
   .section-serv__h3 {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
     font-size: 20px;
   }
-
   .section-serv__p {
     width: 67%;
     font-size: 16px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .section-serv__h2 {
     font-size: 31px;
   }
-
   .section-serv_container {
     width: 55vw;
     margin-left: -20px;
   }
-
   .section-serv__h3 {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
     font-size: 22px;
   }
-
   .section-serv__p {
     width: 67%;
     font-size: 17px;
   }
 }
-
 .text-font {
   font-family: "Montserrat", sans-serif;
 }
@@ -408,6 +401,4 @@ textarea {
 
 .submit-btn:hover {
   background: #9fb17b;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
