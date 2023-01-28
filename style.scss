@@ -7,6 +7,7 @@
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
+    align-items: center;
 
     &__main {
         font-family: "Montserrat";
@@ -18,7 +19,6 @@
 @media screen and (min-width: 1024px) {
     .about {
         min-height: 1000px;
-        align-items: center;
 
 
         &__main {
@@ -34,14 +34,43 @@
                 line-height: 44px;
                 padding-bottom: 20px;
             }
+
+            .mainphoto {
+                display: none;
+            }
         }
     }
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .about {
+        min-height: 395px;
 
-@media screen and (max-width: 767px) {}
+        &__main {
+            max-width: 45%;
+
+            .mainphoto {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        background-image: none;
+
+        &__main {
+            text-align: center;
+            background: #B9C4CA;
+
+            .mainphoto {
+                max-width: 100vw;
+            }
+        }
+    }
+}
 
 
 /*Photo + text Smirnova end*/
