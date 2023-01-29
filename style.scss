@@ -23,13 +23,10 @@ animation-name: text;
     }
   }
   /*------------text end---------------*/
-@media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .events {
-        display: flex;
-        max-width: 1240px;
-        margin: 70px 100px 120px 100px;
-        flex-wrap: wrap;
-	
+        width: 1240px;
+        margin: 70px 100px 120px 300px;
         &__title {
             display: flex;
             flex-direction: row;
@@ -46,7 +43,7 @@ animation-name: text;
             flex-wrap: wrap;
         }
         &__photo {
-            width: 390px;
+            width: 30%;
             height: 272px;
             background-color: #D9D9D9;
             margin: 10px;
