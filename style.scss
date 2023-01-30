@@ -653,11 +653,12 @@ textarea {
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     .form {
+		min-width: 481px;
 		max-width: 768px;
 	}
 
 	input {
-		max-width: 430px;
+		width: 430px;
 	}
 
 	textarea {
