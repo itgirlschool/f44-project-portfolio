@@ -384,10 +384,12 @@ to {
 .container1__title {
   font-weight: 400;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 .container1__text {
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .container2 {
@@ -404,10 +406,12 @@ to {
 .container2__title {
   font-weight: 400;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 .container2__text {
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .container3 {
@@ -422,10 +426,12 @@ to {
 .container3__title {
   font-weight: 400;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 .container3__text {
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 /* services-start */
