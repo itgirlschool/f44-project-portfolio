@@ -10,48 +10,44 @@
 .form-title {
   text-align: center;
   color: #889869;
-  font-weight: 700;
+  margin: 30px;
 }
 
 .form-item__title {
-  width: 120%;
+  font-size: 88%;
 }
 
 input {
   height: 35px;
   width: 540px;
-  border-radius: 0px;
   font-size: inherit;
   border-color: #B9C4CA;
+  border-width: 0.5px;
+  text-align: center;
 }
 
 .form-item {
   text-align: start;
   margin-bottom: 10px;
-  line-height: 0px;
+  padding: 5px;
 }
 
 textarea {
   height: 200px;
   width: 540px;
-  left: 411px;
-  top: 1033px;
-  border-radius: 0px;
-  border-color: #B9C4CA;
+  border-color: #b9c4ca;
 }
 
 .agreement {
   display: flex;
   align-items: center;
   margin: 20px;
+  font-size: 90%;
 }
 
 .checkbox {
   height: 25px;
   width: 25px;
-  left: 412px;
-  top: 1305px;
-  border-radius: 0px;
   margin: 5px;
 }
 
@@ -63,8 +59,6 @@ textarea {
   border-radius: 0px;
   font-size: 24px;
   font-weight: 400;
-  line-height: 29px;
-  letter-spacing: 0em;
   text-align: center;
   margin: 20px;
   border: #889869;
@@ -74,20 +68,39 @@ textarea {
   background: #9fb17b;
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .form {
+    min-width: 481px;
+    max-width: 768px;
+  }
   input {
-    width: 360px;
+    width: 430px;
+  }
+  textarea {
+    max-width: 430px;
   }
   .form-item {
     font-size: small;
-    max-width: 100%;
-    font-size: x-small;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form {
+    max-width: 480px;
+  }
+  input {
+    max-width: 330px;
+  }
+  .form-item {
+    font-size: small;
+    max-width: 70%;
   }
   textarea {
-    width: 360px;
+    max-width: 330px;
     height: 100px;
   }
   .agreement {
     font-size: small;
+    max-width: 325px;
+    margin: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
