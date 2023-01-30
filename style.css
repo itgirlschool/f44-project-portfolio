@@ -229,7 +229,7 @@ to {
   .events__photo {
     width: 30%;
     height: 272px;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     margin: 10px;
   }
 }
@@ -255,7 +255,7 @@ to {
   .events__photo {
     width: 40%;
     height: 250px;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     margin: 2%;
   }
 }
@@ -281,7 +281,7 @@ to {
   .events__photo {
     width: 32%;
     height: 250px;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     margin: 2%;
   }
 }
@@ -308,7 +308,7 @@ to {
   .events__photo {
     width: 70%;
     height: 250px;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     margin: 2%;
   }
 }
@@ -509,6 +509,7 @@ to {
 
 .services {
   margin-top: 20px;
+  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -576,7 +577,7 @@ input {
   height: 35px;
   width: 540px;
   font-size: inherit;
-  border-color: #B9C4CA;
+  border-color: #b9c4ca;
   border-width: 0.5px;
   text-align: center;
 }
@@ -608,7 +609,7 @@ textarea {
 
 .submit-btn {
   background: #889869;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 53px;
   width: 275px;
   border-radius: 0px;
