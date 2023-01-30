@@ -565,7 +565,6 @@ to {
 .form-title {
   text-align: center;
   color: #889869;
-  font-weight: 700;
   margin: 30px;
 }
 
@@ -578,11 +577,14 @@ input {
   width: 540px;
   font-size: inherit;
   border-color: #B9C4CA;
+  border-width: 0.5px;
+  text-align: center;
 }
 
 .form-item {
   text-align: start;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 textarea {
