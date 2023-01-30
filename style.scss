@@ -1,4 +1,6 @@
 
+
+/*#-----------------------------Page 2 Block 1 Start--------------------*/
 @media screen and (max-width: 767px) {
 
 
@@ -71,16 +73,13 @@ width: 100px;
 
 .maincontainer {
 
-    background: #F5F5F5;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
+   height: 1000px;
 
 }
 
 .headline {
 position: relative;
-background: #F5F5F5;
 color: #889869;
 font-family: 'Montserrat', sans-serif;
 font-weight: 700;
@@ -94,7 +93,7 @@ text-align: center;
     font-family: 'Montserrat', sans-serif;
 background: #ECAE7D;
 color: white;
-position: absolute;
+
 left: 80px;
 top: 100px;
 text-align: left;
@@ -115,7 +114,7 @@ width: 500px;
     font-family: 'Montserrat', sans-serif;
     background: #B9C4CA;
     color: white;
-    position: absolute;
+
     right: 80px;
     top: 450px;
     text-align: left;
@@ -137,7 +136,7 @@ width: 500px;
     font-family: 'Montserrat', sans-serif;
     background: #889869;
     color: white;
-    position: absolute;
+
     left: 80px;
     top: 800px;
     text-align: left;
@@ -155,3 +154,99 @@ width: 500px;
     }
 }
 
+/*#-----------------------------Page 2 Block 1 End--------------------*/
+
+/*#-----------------------------Page 2 Block 1 End--------------------*/
+
+/*#-----------------------------Page 1 Block 2 Start--------------------*/
+
+.aboutme {
+    background: #1E1E1E;
+
+}
+
+.aboutme__container {
+    background: #1E1E1E;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    height: 700px;
+    padding: 73px 165px 82px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.aboutme__title {
+    position: relative;
+    width: 264px;
+    height: 56px;
+    left: 296px;
+    top: 991px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.content__container {
+    width: 100%;
+    margin-top: 325px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__img {
+    position: relative;
+    width: 508px;
+    height: 641px;
+    left: 862px;
+    top: 1075px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content__text {
+    position: relative;
+    width: 715px;
+    height: 641px;
+    left: 70px;
+    top: 1075px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+/*#-----------------------------Page 1 Block 2 End--------------------*/
+.information{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    letter-spacing: 5px;
+
+&__text{
+animation-duration: 2s;
+animation-name: text;
+}
+}
+@keyframes text {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  /*------------text end---------------*/
