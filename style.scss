@@ -7,6 +7,12 @@
 	margin-right: 50px;
 	margin-bottom: 20px;
 }
+@media (max-width: 400px) {
+	.header-links {
+	    display: flex;
+	    flex-direction: column;
+	}
+}
 .navigation__work-together {
 	margin-right: 20px;
 }

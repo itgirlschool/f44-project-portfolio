@@ -1,6 +1,5 @@
 /*header Masha*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
-
 .header-links {
   display: flex;
   justify-content: space-between;
@@ -16,7 +15,6 @@
     flex-direction: column;
   }
 }
-
 .navigation__work-together {
   margin-right: 20px;
 }
