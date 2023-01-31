@@ -7,6 +7,12 @@
 	margin-right: 50px;
 	margin-bottom: 20px;
 }
+@media (max-width: 400px) {
+	.header-links {
+	    display: flex;
+	    flex-direction: column;
+	}
+}
 .navigation__work-together {
 	margin-right: 20px;
 }
@@ -123,6 +129,11 @@
 		margin-left: 0%;
 		width: 100%;
 	}
+}
+@media screen and (max-width:768px) {
+    .information__text{
+        font-size: 16px;
+    }
 }
 /*------------text end---------------*/
 
