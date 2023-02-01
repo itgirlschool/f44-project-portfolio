@@ -330,6 +330,7 @@ to {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 
 .maincontainer {
+	position: absolute;
 height: 750px;
 }
 
@@ -341,11 +342,16 @@ height: 750px;
 }
 
 .container1 {
+
 font-family: "Montserrat", sans-serif;
-background: #ecae7d;
+background-image: url(/f44-project-portfolio/images/1.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 color: white;
 margin-left: 50px;
 margin-bottom: 40px;
+box-sizing: border-box;
 	&__title {
 		font-weight: 400;
 		font-size: 30px;
@@ -359,13 +365,17 @@ margin-bottom: 40px;
 }
 
 .container2 {
+	position: relative;
+right: 50px;
 	font-family: "Montserrat", sans-serif;
-	background: #b9c4ca;
+	background-image: url(/f44-project-portfolio/images/3.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 	color: white;
 	font-weight: 400;
 	margin-bottom: 40px;
-	position: relative;
-    left: 1200px;
+	box-sizing: border-box;
 	&__title {
 		font-weight: 400;
 		font-size: 30px;
@@ -380,10 +390,14 @@ margin-bottom: 40px;
 
 .container3 {
 	font-family: "Montserrat", sans-serif;
-	background: #889869;
+	background-image: url(/f44-project-portfolio/images/6.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 	color: white;
 	margin-left: 50px;
 	font-weight: 400;
+	box-sizing: border-box;
 	&__title {
 		font-weight: 400;
 		font-size: 30px;
