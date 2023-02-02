@@ -324,26 +324,28 @@ to {
   }
 }
 .maincontainer {
-  position: absolute;
   height: 750px;
 }
 
 .headline {
+  margin-bottom: 40px;
   color: #889869;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
 }
 
 .container1 {
   font-family: "Montserrat", sans-serif;
-  background-image: url(/f44-project-portfolio/images/1.png);
   background-size: cover;
+  background: #ECAE7D;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
   margin-left: 50px;
   margin-bottom: 40px;
-  box-sizing: border-box;
 }
 .container1__title {
   font-weight: 400;
@@ -357,17 +359,15 @@ to {
 }
 
 .container2 {
-  position: relative;
-  right: 50px;
   font-family: "Montserrat", sans-serif;
-  background-image: url(/f44-project-portfolio/images/3.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #b9c4ca;
   color: white;
   font-weight: 400;
+  padding: 50px;
   margin-bottom: 40px;
-  box-sizing: border-box;
+  width: 500px;
+  position: relative;
+  left: 1200px;
 }
 .container2__title {
   font-weight: 400;
@@ -382,14 +382,12 @@ to {
 
 .container3 {
   font-family: "Montserrat", sans-serif;
-  background-image: url(/f44-project-portfolio/images/6.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #889869;
   color: white;
   margin-left: 50px;
   font-weight: 400;
-  box-sizing: border-box;
+  padding: 50px;
+  width: 500px;
 }
 .container3__title {
   font-weight: 400;
