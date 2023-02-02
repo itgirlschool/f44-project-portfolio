@@ -692,7 +692,7 @@ margin-bottom: 40px;
 
 /*-----Last Part Form-----*/
 
-.form {
+form {
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
 	display: flex;
@@ -703,7 +703,8 @@ margin-bottom: 40px;
 .form-title {
 	text-align: center;
 	color: #889869;
-	margin: 30px;
+	margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .form-item__title {
@@ -755,6 +756,7 @@ textarea {
 	text-align: center;
 	margin: 20px;
 	border: #889869;
+	cursor: pointer;
 }
 
 .submit-btn:hover {
@@ -762,7 +764,8 @@ textarea {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-	.form {
+
+    form {
 		min-width: 481px;
 		max-width: 768px;
 	}
@@ -781,7 +784,8 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-	.form {
+
+	form {
 		max-width: 480px;
 	}
 
