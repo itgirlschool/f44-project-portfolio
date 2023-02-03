@@ -1,6 +1,13 @@
 /*header Masha*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+.header {
+  border-bottom: 2px solid #889869;
+}
+
 .header-links {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   display: flex;
   justify-content: space-between;
   margin-left: 50px;
@@ -9,7 +16,14 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 375px) and (max-width: 450px) {
+  .header-links {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 374px) {
   .header-links {
     display: flex;
     flex-direction: column;
@@ -17,19 +31,16 @@
 }
 .navigation__work-together {
   margin-right: 20px;
+  text-decoration: none;
 }
 
 .navigation__portfolio {
   margin-right: 20px;
+  text-decoration: none;
 }
 
-.header-line {
-  width: 100vw;
-  display: flex;
-  align-self: flex-end;
-  top: 10%;
-  right: 0%;
-  left: 0%;
+.navigation__blog {
+  text-decoration: none;
 }
 
 /*header-end Masha*/
@@ -141,6 +152,8 @@
 /*------------text end---------------*/
 /*-------------------footer Masha--------------*/
 .footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   width: 100vw;
   margin-left: 0;
   display: flex;
