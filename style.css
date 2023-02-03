@@ -312,10 +312,6 @@ to {
     margin: 2%;
   }
 }
-.maincontainer {
-  height: 750px;
-}
-
 .headline {
   margin-bottom: 40px;
   color: #889869;
@@ -355,7 +351,7 @@ to {
   margin-bottom: 40px;
   width: 500px;
   position: relative;
-  left: 1200px;
+  left: 400px;
 }
 .container2__title {
   font-weight: 400;
@@ -398,19 +394,18 @@ to {
   }
   .container1 {
     padding: 10px;
-    margin: 10px;
-    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .container2 {
     padding: 10px;
-    margin: 10px;
-    width: 100px;
-    left: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .container3 {
     padding: 10px;
-    margin: 10px;
-    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 @media screen and (max-width: 399px) {
