@@ -146,6 +146,21 @@
 	.information__text {
 		font-size: 16px;
 		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width:768px){
+	.information__text {
+		font-size: 13px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width:425px){
+	.information__text {
+		font-size: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
 
