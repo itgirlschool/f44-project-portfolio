@@ -2,18 +2,18 @@
 .header-links {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 20px;
-	margin-right: 150px;
-	margin-bottom: 10px;
+	margin-right: 5%;
+	padding-top: 10px;
+	font-size: 18px;
 }
 .header-links a{
 	color: #889869;
 }
-a:visited, a:focus, a:hover {
-    color:#9fb17b;
+a:hover {
+    color:#b3c490;
 }
 .logo{
-	margin-left: 150px;
+	margin-left: 5%;
 }
 
 @media (max-width: 400px) {
@@ -44,7 +44,7 @@ a:visited, a:focus, a:hover {
 
 /*Photo + text Smirnova start*/
 .about {
-	background-image: url("assets/images/main_photo1.jpg");
+	background-image: url("images/main_photo1_2.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -58,6 +58,7 @@ a:visited, a:focus, a:hover {
 		font-family: "Montserrat";
 		font-style: normal;
 		color: #000000;
+		margin-right: 5%;
 	}
 }
 
