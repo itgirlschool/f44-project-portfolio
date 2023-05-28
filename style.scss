@@ -2,10 +2,18 @@
 .header-links {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 50px;
 	margin-top: 20px;
-	margin-right: 50px;
-	margin-bottom: 20px;
+	margin-right: 150px;
+	margin-bottom: 10px;
+}
+.header-links a{
+	color: #889869;
+}
+a:visited, a:focus, a:hover {
+    color:#9fb17b;
+}
+.logo{
+	margin-left: 150px;
 }
 
 @media (max-width: 400px) {
@@ -113,6 +121,13 @@
 }
 
 /*Photo + text Smirnova end*/
+/*text*/
+marquee{
+	margin-bottom: 10px;
+	border: #b9c4ca 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 .information {
 	text-align: center;
@@ -123,23 +138,13 @@
 	margin-top: 50px;
 	margin-bottom: 50px;
 
-	&__text {
-		animation-duration: 3s;
-		animation-name: text;
+	&__text{
+		width: 100%;
+		max-width: 1440px;
+		margin: 0 auto;
 	}
 }
 
-@keyframes text {
-	from {
-		margin-left: 100%;
-		width: 100%;
-	}
-
-	to {
-		margin-left: 0%;
-		width: 100%;
-	}
-}
 
 @media screen and (max-width: 1024px) {
 	.information__text {
@@ -751,7 +756,7 @@ to {
 	.services-item {
 		flex-wrap: wrap;
 	}
-
+/*
 	.section-serv__h3 {
 		width: max-content;
 		margin-top: 5px;
@@ -759,7 +764,7 @@ to {
 		flex-grow: 1;
 		border-radius: 45%;
 		padding: 10px 30px;
-	}
+	}*/
 
 	.section-serv__h3-center {
 		white-space: nowrap;
@@ -780,13 +785,13 @@ to {
 	.section-serv_container {
 		width: 65vw;
 	}
-
+/*
 	.section-serv__h3 {
 		width: min-content;
 		font-size: 20px;
 		border-radius: 40%;
 		padding: 10px 30px;
-	}
+	}*/
 
 	.section-serv__p {
 		width: 67%;
@@ -810,13 +815,13 @@ to {
 		width: 55vw;
 		margin-left: -20px;
 	}
-
+/*
 	.section-serv__h3 {
 		width: min-content;
 		font-size: 22px;
 		border-radius: 40%;
 		padding: 10px 30px;
-	}
+	}*/
 
 	.section-serv__p {
 		width: 67%;
@@ -862,7 +867,7 @@ to {
 	display: flex;
 	justify-content: space-between;
 }
-
+/*
 .section-serv__h3 {
 	text-align: center;
 	color: rgba(136, 152, 105, 1);
@@ -872,7 +877,7 @@ to {
 	border: 2px solid rgba(136, 152, 105, 1);
 	background-color: rgba(185, 196, 202, 0.5);
 	min-width: 89px;
-}
+}*/
 
 .section-serv__h3-last {
 	padding: 10px 27.5px;
