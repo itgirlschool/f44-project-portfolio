@@ -95,10 +95,11 @@ a:hover {
 
 @media screen and (max-width: 767px) {
 	.about {
+		background-image: none;
 		&__main {
 			line-height: 25px;
 			text-align: center;
-			background: #889869;
+			background-color: #889869;
 
 			.maintext-title {
 				font-size: 20px;

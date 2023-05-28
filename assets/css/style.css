@@ -90,10 +90,13 @@ a:hover {
   }
 }
 @media screen and (max-width: 767px) {
+  .about {
+    background-image: none;
+  }
   .about__main {
     line-height: 25px;
     text-align: center;
-    background: #889869;
+    background-color: #889869;
   }
   .about__main .maintext-title {
     font-size: 20px;
