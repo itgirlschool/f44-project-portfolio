@@ -380,11 +380,24 @@ to {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
-
+/*
 .maincontainer {
 	height: 750px;
-}
+}*/
+.maincontainer{
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
 
+	&__text{
+		font-size: 20px;
+		letter-spacing: 0.1em;
+		padding-bottom: 20px;
+	}
+}
+.containers{
+	display: flex;
+}
 .headline {
 	margin-bottom: 40px;
 	color: #889869;
@@ -397,73 +410,73 @@ to {
 
 .container1 {
 	font-family: "Montserrat", sans-serif;
-	background-size: cover;
 	background: #ecae7d;
-	background-repeat: no-repeat;
-	background-position: center;
 	color: white;
-	margin-left: 50px;
+	/*margin-left: 50px;*/
 	margin-bottom: 40px;
+	padding: 40px;
+	width: 360px;
 
 	&__title {
 		font-weight: 400;
 		font-size: 30px;
 		margin-bottom: 20px;
+		text-align: center;
 	}
-
+/*
 	&__text {
 		font-weight: 400;
 		font-size: 20px;
 		margin-bottom: 20px;
-	}
+	}*/
 }
 
 .container2 {
 	font-family: "Montserrat", sans-serif;
 	background: #b9c4ca;
 	color: white;
-	font-weight: 400;
-	padding: 50px;
+	padding: 40px;
 	margin-bottom: 40px;
-	width: 500px;
-	position: relative;
-	left: 1200px;
+	width: 360px;
+	margin-left: 20px;
+	
 
 	&__title {
 		font-weight: 400;
 		font-size: 30px;
 		margin-bottom: 20px;
+		text-align: center;
 	}
-
+/*
 	&__text {
 		font-weight: 400;
 		font-size: 20px;
 		margin-bottom: 20px;
-	}
+	}*/
 }
 
 .container3 {
 	font-family: "Montserrat", sans-serif;
 	background: #889869;
 	color: white;
-	margin-left: 50px;
-	font-weight: 400;
-	padding: 50px;
-	width: 500px;
+	padding: 40px;
+	width: 360px;
+	margin-left: 20px;
 
 	&__title {
 		font-weight: 400;
 		font-size: 30px;
 		margin-bottom: 20px;
+		text-align: center;
 	}
-
+/*
 	&__text {
 		font-weight: 400;
 		font-size: 20px;
 		margin-bottom: 20px;
-	}
+	}*/
 }
-
+/*
 @media screen and (min-width: 1024px) {
 	.headline {
 		font-size: 36px;
@@ -473,19 +486,18 @@ to {
 	}
 
 	.container1 {
-		padding: 50px;
-		width: 500px;
+		padding: 40px;
+		width: 360px;
 	}
 
 	.container2 {
-		padding: 50px;
-		width: 500px;
-		left: 50px;
+		padding: 40px;
+		width: 360px;
 	}
 
 	.container3 {
-		padding: 50px;
-		width: 500px;
+		padding: 40px;
+		width: 360px;
 	}
 }
 
@@ -507,21 +519,21 @@ to {
 		margin-left: 50px;
 		margin-bottom: 40px;
 		padding: 50px;
-		width: 500px;
+		width: 360px;
 
 		&__title {
 			font-weight: 400;
 			font-size: 30px;
 			margin-bottom: 20px;
 		}
-
+/*
 		&__text {
 			font-weight: 400;
 			font-size: 20px;
 			margin-bottom: 20px;
-		}
-	}
-
+		}*/
+	//}
+/*
 	.container2 {
 		font-family: "Montserrat", sans-serif;
 		background: #b9c4ca;
@@ -529,23 +541,22 @@ to {
 		font-weight: 400;
 		padding: 50px;
 		margin-bottom: 40px;
-		width: 500px;
-		position: relative;
-		left: 400px;
+		width: 360px;
+	
 
 		&__title {
 			font-weight: 400;
 			font-size: 30px;
 			margin-bottom: 20px;
 		}
-
+/*
 		&__text {
 			font-weight: 400;
 			font-size: 20px;
 			margin-bottom: 20px;
-		}
-	}
-
+		}*/
+	//}
+/*
 	.container3 {
 		font-family: "Montserrat", sans-serif;
 		background: #889869;
@@ -553,21 +564,21 @@ to {
 		margin-left: 50px;
 		font-weight: 400;
 		padding: 50px;
-		width: 500px;
+		width: 360px;
 
 		&__title {
 			font-weight: 400;
 			font-size: 30px;
 			margin-bottom: 20px;
 		}
-
+/*
 		&__text {
 			font-weight: 400;
 			font-size: 20px;
 			margin-bottom: 20px;
-		}
-	}
-
+		}*/
+	//}
+/*
 	@media screen and (max-width: 767px) {
 		.maincontainer {
 			display: flex;
