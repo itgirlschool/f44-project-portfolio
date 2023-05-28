@@ -46,7 +46,7 @@ a:visited, a:focus, a:hover {
 /*header-end Masha*/
 /*Photo + text Smirnova start*/
 .about {
-  background-image: url(images/main_photo1.jpg);
+  background-image: url("assets/images/main_photo1.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
