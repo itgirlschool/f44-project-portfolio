@@ -460,8 +460,42 @@ to {
 	}
 }
 .img img{
-	width: 500px;
+	width: 600px;
 }
+
+@media screen and (max-width: 1440px){
+	.maincontainer{
+		margin-left: 50px;
+	}
+	.container2, .container3{
+		margin-left: 15px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.maincontainer{
+		margin-left: 20px;
+	}
+	.containers{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		margin-left: 260px;
+	}
+.maincontainer__text{
+	font-size: 16px;
+	width: 950px;
+}
+.blogs{
+	margin-left: 20px;
+}
+}
+@media screen and (max-width: 768px) {
+	.containers{
+		margin-left: 160px;
+	}
+}
+
 /*
 .container3 img, .container2 img{
 	width: 360px;
