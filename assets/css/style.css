@@ -40,7 +40,7 @@ a:hover {
 }
 
 .about {
-  background-image: url(images/main_photo1_2.jpg);
+  background-image: url(images/main_photo1_3.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -48,41 +48,40 @@ a:hover {
   justify-content: flex-end;
   margin: 0 auto;
   align-items: center;
-  min-height: 100vh;
+  min-height: 160vh;
 }
 .about__main {
-  font-family: "Montserrat";
-  font-style: normal;
   color: #000000;
   margin-right: 5%;
+  text-align: end;
 }
 
 @media screen and (max-width: 1440px) {
   .about {
-    min-height: 60vh;
+    background-image: url(images/main_photo1.jpg);
+    min-height: 100vh;
   }
 }
 @media screen and (min-width: 1024px) {
   .about {
-    min-height: 50vh;
+    min-height: 60vh;
   }
   .about__main {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 37px;
     max-width: 43%;
-    padding-right: 55px;
+    padding-right: 1%;
   }
   .maintext-title {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 25px;
     padding-bottom: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about {
-    min-height: 35vh;
+    min-height: 50vh;
   }
   .about__main {
     max-width: 45%;
@@ -90,12 +89,11 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
   .about {
-    min-height: 20vh;
+    min-height: 45vh;
     font-size: 2vw;
   }
   .about__main {
     line-height: 25px;
-    text-align: end;
     padding-right: 5%;
     width: 50%;
     color: #000000;
