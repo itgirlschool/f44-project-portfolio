@@ -52,9 +52,15 @@ a:hover {
 		color: #000000;
 		margin-right: 5%;
 		text-align: end;
-		
-	}
+        animation: glow 2500ms linear infinite 2000ms;
+        @keyframes glow {
+        40% {
+        text-shadow: 5px 8px 5px #3c3c3cbb;
+        }
+        }
+    }
 }
+
 @media screen and (max-width: 1440px) {
 	.about{
 		background-image: url(images/main_photo1.jpg);
