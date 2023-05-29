@@ -35,16 +35,13 @@ a:hover {
 	width: 100vw;
 	display: flex;
 	align-self: flex-end;
-	top: 10%;
-	right: 0%;
-	left: 0%;
 }
 
 /*header-end Masha*/
 
 /*Photo + text Smirnova start*/
 .about {
-	background-image: url(images/main_photo1.jpg);
+	background-image: url(images/main_photo1_2.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -66,7 +63,6 @@ a:hover {
 @media screen and (min-width: 1024px) {
 	.about {
 		
-
 		&__main {
 			font-weight: 400;
 			font-size: 30px;
@@ -86,7 +82,7 @@ a:hover {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.about {
-		min-height: 395px;
+		max-height: 395px;
 
 		&__main {
 			max-width: 45%;
@@ -96,16 +92,20 @@ a:hover {
 
 @media screen and (max-width: 767px) {
 	.about {
-		background-image: none;
+		background-image: url(images/main_photo1_2.jpg);
+		background-size: contain;
+		font-size: 2vw;
 		&__main {
 			line-height: 25px;
-			text-align: center;
-			background-color: #889869;
+			text-align: end;
+			padding-right: 5%;
+			width: 50%;
+			color: #000000;
 			margin: 0;
+			
 
 			.maintext-title {
-				font-size: 20px;
-				line-height: 30px;
+				font-size: 2.5vw;
 			}
 		}
 	}
