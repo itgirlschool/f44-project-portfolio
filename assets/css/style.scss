@@ -51,7 +51,7 @@ a:hover {
 	&__main {
 		color: #000000;
 		margin-right: 5%;
-		text-align: end;
+		text-align:start;
         animation: glow 2500ms linear infinite 2000ms;
         @keyframes glow {
         40% {
